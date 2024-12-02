@@ -1,0 +1,23 @@
+{
+   "@context":{
+      "id":"@id",
+      "type":"@type",
+      "@protected":true,
+      "pointidentity-vocab":"urn:uuid:13fe9318-bb82-4d95-8bf5-8e7fdf8b2026#",
+      "BabyJubJubKey2021":{
+         "@id":"pointidentity-vocab:BabyJubJubKey2021",
+         "@context":{
+            "id":"@id",
+            "type":"@type",
+            "controller":{
+               "@id":"https://w3id.org/security#controller",
+               "@type":"@id"
+            },
+            "publicKeyMultibase":{
+               "@id":"https://w3id.org/security#publicKeyMultibase",
+               "@type":"https://w3id.org/security#multibase"
+            }
+         }
+      }
+   }
+}
